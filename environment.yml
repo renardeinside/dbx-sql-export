@@ -1,0 +1,10 @@
+name: dbx-sql-cli
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pyodbc
+  - pandas
+  - click
+  - pip:
+    - pyarrow
